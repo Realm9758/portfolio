@@ -1,5 +1,5 @@
 .button {
-        background-color: lightblue; /* Green */
+        background-color: lightblue; 
         border: none;
         color: white;
         padding: 15px 32px;
@@ -14,7 +14,7 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .button1 {
-        background-color: lightblue; /* Green */
+        background-color: lightblue;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -30,5 +30,6 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
                     body {
-                            background-image: url("paper.gif");
+                            background-image: url("img.jpg") ;
+                            background-size:cover;
                     }
