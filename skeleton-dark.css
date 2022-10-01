@@ -50,12 +50,12 @@ a:hover {
 .discordsocial {
   padding: 50px;
   transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
+  width: 20px;
+  height: 20px;
   margin: 0 auto;
 }
 .discordsocial:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .buttonback {
