@@ -31,6 +31,33 @@ section{
       transition: none;
   }
 }
+a:link {
+  background-color: yellow;
+  text-decoration: none;
+}
+
+  a:active {
+    background-color: hotpink;
+  } 
+
+a:visited {
+  background-color: cyan;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+.discordsocial {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.discordsocial:hover{
+  transform: scale(1.5);
+}
+
 .buttonback {
   background-color:grey;
   border: none;
