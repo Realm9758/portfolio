@@ -2,7 +2,7 @@
         background-color: lightblue; 
         border: none;
         color: white;
-        padding: 15px 32px;
+        padding: 25px 100px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -11,7 +11,8 @@
         cursor: pointer;
                     }
 .button:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:cadetblue;
 }
 .button1 {
         background-color: lightblue;
@@ -27,7 +28,8 @@
         
                     }
 .button1:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:blue;
 }
 
   head{
@@ -39,7 +41,7 @@
 head { font-size:24px; line-height: 64px; letter-spacing: 0;}
                     body {
                             background-image: url("cherry-blossom-tree.gif") ;
-                            background-size:cover;
+                            background-size:inherit;
                             /*background: linear-gradient(to right, blue, p);*/
                             background-size:cover;
                             font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
