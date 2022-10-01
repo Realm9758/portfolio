@@ -56,6 +56,17 @@ a:link {
     font-weight: 800; 
     font-family: "Ubuntu", "sans-serif";
 }
+.discordsocial {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+.discordsocial:hover{
+  transform: scale(1.2);
+}
+
 head { font-size:24px; line-height: 64px; letter-spacing: 0;}
                     body {
                             background-image: url("cherry-blossom-tree.gif") ;
