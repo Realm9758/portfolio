@@ -10,6 +10,9 @@
         margin: 4px 2px;
         cursor: pointer;
                     }
+                    
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .button:hover{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color:cadetblue;
@@ -36,7 +39,7 @@
     margin-top: 0;
     margin-bottom: 16px;
     font-weight: 800; 
-    font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Ubuntu", "sans-serif";
 }
 head { font-size:24px; line-height: 64px; letter-spacing: 0;}
                     body {
@@ -44,5 +47,5 @@ head { font-size:24px; line-height: 64px; letter-spacing: 0;}
                             background-size:inherit;
                             /*background: linear-gradient(to right, blue, p);*/
                             background-size:cover;
-                            font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                            font-family: "Ubuntu", "sans-serif";
                     }
