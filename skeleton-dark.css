@@ -2,7 +2,7 @@
 head{
   font-family: "Ubuntu", sans-serif;
 }
-.c
+
 body{
   background-color: #131316;
   color: #ffff;
@@ -40,10 +40,6 @@ a:link {
   a:active {
     background-color: hotpink;
   } 
-
-a:visited {
-  background-color: cyan;
-}
 
 a:hover {
   background-color: lightgreen;
