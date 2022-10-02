@@ -66,10 +66,19 @@ a:link {
 .discordsocial:hover{
   transform: scale(1.2);
 }
+section{
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 25vh;
+}
 .wrapper .icon{
   position: relative;
   background-color: #ffffff;
-  align-items: center;                border-radius: 50%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  border-radius: 50%;
   margin: 10px;
   width: 50px;
   height: 50px;
@@ -77,6 +86,7 @@ a:link {
   font-size: 22px;
   display: inline-block;
   align-items: center;
+  text-align: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
