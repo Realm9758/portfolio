@@ -26,15 +26,40 @@ section{
   opacity: 1;
   transform: translateX(0);
 }
-
-
-  a:active {
-    background-color: hotpink;
-  } 
-
-a:hover {
-  background-color: lightgreen;
+.worktext:link {
+  text-decoration: none;
 }
+
+.worktext:visited {
+  text-decoration: none;
+}
+
+worktext:hover {
+  text-decoration: underline;
+}
+article{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+input[type=button]{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input:hover{background-color: lightgreen;}
+
 .discordsocial {
   padding: 50px;
   transition: transform .2s; /* Animation */
