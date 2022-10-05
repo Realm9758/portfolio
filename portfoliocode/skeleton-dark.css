@@ -16,8 +16,11 @@ section{
   min-height: 25vh;
 }
 img{
-  margin-right: 30rem;
-  width: 10rem;
+  border-radius: 50px;
+  border: 2px solid grey;
+  margin-left: 120px;
+  width: 100px;
+
 }
 button {
   background-color:rgba(0,0,0,0.19); 
