@@ -1,5 +1,5 @@
 .button {
-        background-color: lightblue; 
+        background-color:rgba(0,0,0,0.19); 
         border: none;
         color: white;
         padding: 25px 100px;
@@ -15,10 +15,10 @@
 
 .button:hover{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color:cadetblue;
+    background-color:grey;
 }
 .button1 {
-        background-color: lightblue;
+        background-color:#002ae7;
         border: none;
         color: white;
         padding: 15px 32px;
@@ -32,7 +32,7 @@
                     }
 .button1:hover{
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color:darkslategray;
+    background-color:#333;
 }
 a:link {
     background-color: yellow;
@@ -66,15 +66,17 @@ section{
   align-content: center;
   min-height: 25vh;
 }
+
 #socials{
-  padding: 1rem;
+  padding: 0rem;
   place-items: center;
   align-content: center;
   font-family: 'Inter', sans-serif;
   border-radius: 50%;
-  margin: 5px;
-  line-height: 50px;
-  font-size: 22px;
+  line-height: 5px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
   text-align: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -197,9 +199,9 @@ head { padding: 0rem;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  color: white;}
+  color: black;}
                     body {
-                            background-image: url("cherry-blossom-tree.gif") ;
+                            background-color:#333 ;
                             /*background: linear-gradient(to right, blue, p);*/
                             background-size:cover;
                             padding: 0rem;

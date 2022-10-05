@@ -10,18 +10,18 @@
     </head>
     <body>
         <form>
-        <input href="#" type="button" class="previous" value="&laquo; Previous"onclick="history.back()"></a>
+        <input href="#" type="button" class="previous" id="previous" value="&laquo; Previous"onclick="history.back()">
     </form>
 
             
-              <area>
-              <article></article>
+              
+              
         <section class="hidden"id="about">
             <div>
             <h2><center>About me</center></h2>
                <div>
-                <div>
-                    <center>
+                <div class="">
+          
                     <img
                     alt="Profile Image"
                     class="img-fluid rounded shadow-lg"
@@ -29,8 +29,7 @@
                     width="300px"
                     src="profile.png"
                     alt="Profile Image"
-                    />
-                    </center>
+                    />    
                 </div>
             
                 <div class="col-md-6 col-sm-12">
@@ -53,15 +52,10 @@
             </div>
             
         </section>
-        <section class="worktext"
-                    id="worktext"><a
-                        rel="noreferrer"
-                        target="_blank"           
-                        href="page3.html"
-                    >
-                        View my work
-                    </a></section>
-            <div style="display: flex">
+        <section class="hidden">
+            <a href="page3.html"><center><button class="">My work</button></center></a>
+            
+            <div style="display: flex"> 
                 <div class="left">
                 <div class="right"></div>
                 </div>
@@ -93,7 +87,7 @@
                 <div class="col-md-6 col-sm-12">
                 <div class="about-wrapper__info load-hidden">
                     </section>
-                    </a>
+                    
                     <section class="hidden">
                         <p><center>Test</center></p>
                     </section>

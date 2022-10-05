@@ -15,6 +15,33 @@ section{
   align-content: center;
   min-height: 25vh;
 }
+img{
+  margin-right: 30rem;
+  width: 10rem;
+}
+button {
+  background-color:rgba(0,0,0,0.19); 
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+              }
+              
+button:hover{
+box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+background-color:grey;
+}
+#previous{
+  background-color: black;
+}
+#previous:hover{
+  background-color: grey;
+}
 .hidden {
   opacity: 0;
   filter: blur(5px);
@@ -37,18 +64,7 @@ section{
 worktext:hover {
   text-decoration: underline;
 }
-article{
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-}
 
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
 input[type=button]{
   background-color: #04AA6D;
   border: none;
@@ -60,30 +76,8 @@ input[type=button]{
 }
 input:hover{background-color: lightgreen;}
 
-.discordsocial {
-  padding: 50px;
-  transition: transform .2s; /* Animation */
-  width: 20px;
-  height: 20px;
-  margin: 0 auto;
-}
-.discordsocial:hover{
-  transform: scale(1.2);
-}
 
-.buttonback {
-  background-color:grey;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  
-              }
+              
               .wrapper .icon{
                 position: relative;
                 background-color: #ffffff;
