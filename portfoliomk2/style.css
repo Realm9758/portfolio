@@ -252,6 +252,13 @@ section{
   background-color: grey;
 }
 
+.previous{
+  background-color: darkgrey;
+  
+}
+.previous:hover{
+  background-color: grey;
+}
 .block {
   display: block;
 }
